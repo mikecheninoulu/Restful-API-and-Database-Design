@@ -1,0 +1,18 @@
+INSERT INTO "users" VALUES(1,'chen',123,321,432,555,'True');
+INSERT INTO "users" VALUES(2,'zhoujj',1357724086,1357724086,8112,100,'False');
+INSERT INTO "users" VALUES(3,'libo',1362012937,1362012937,139,521,'True');
+INSERT INTO "users" VALUES(4,'doudou',1389260086,1389260086,2198,520,'True');
+INSERT INTO "users" VALUES(5,'chendashuai',1394357686,1394357686,612,101,'True');
+INSERT INTO "users_profile" VALUES(1,'chen','dashuai','jane@imaginecompany.com',NULL,'photo1.jpg',NULL,NULL,22,'New York','Female', 'Well, hello there! Blah ...','avatar_2.gif');
+INSERT INTO "users_profile" VALUES(2,'zhou','jj','aw@hotmail.com',NULL,'photo3.png',NULL,NULL,28,NULL,'Male', 'Without an exception, there is no rule...', NULL);
+INSERT INTO "users_profile" VALUES(3,'li','bo','francois@yahoo.com','http://www.francoisbeaumont.fr/','',NULL,NULL,19,'Paris','Male','None','avatar_4.jpg');
+INSERT INTO "users_profile" VALUES(4,'dou','dou','matti@suomi24.fi','http://www.geocities.com/~matti/','photo_5.jpg',NULL,NULL,30,'Helsinki','Male','Elama on.','avatar_5.png');
+INSERT INTO "users_profile" VALUES(5,'chen','hy','dan@gmail.com','http://www.hockeyfan.com/','photo8.png',NULL,NULL,24,'Washington DC','Male','Washington Capitals rule!','avatar_7.jpg');
+INSERT INTO "sports" VALUES(1,'run','251','2','for 5 people');
+INSERT INTO "sports" VALUES(2,'jog','248','8','for 1 people');
+INSERT INTO "sports" VALUES(3,'swim','51','12','for 3 people');
+INSERT INTO "sports" VALUES(4,'basket','21','3','for 10 people');
+INSERT INTO "orders" VALUES(1,'chen','swim',123);
+INSERT INTO "orders" VALUES(2,'zhoujj','run',355);
+INSERT INTO "friends" VALUES(1,2);
+INSERT INTO "friends" VALUES(3,5);
